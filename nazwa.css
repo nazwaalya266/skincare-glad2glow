@@ -1,0 +1,140 @@
+
+*{
+	box-sizing: border-box;
+}
+ 
+ body {
+
+ font-family: Arial;
+
+ padding: 10px;
+
+ background: pink;
+
+}
+
+ /* Header */
+
+ header {
+
+ padding: 30px;
+
+ text-align: center;
+
+ background: pink;
+
+}
+
+header h1 {
+	font-size: 50px;
+
+/* Top navigation bar */
+
+ topnav {
+
+ overflow: hidden;
+
+ background-color: pink;
+
+}
+
+/* Topnav links */
+
+ topnav a{
+
+ float: right;
+
+ display: block;
+
+ color: #f2f2f2;
+
+ text-align: center;
+
+ padding: 14px 16px;
+
+ text-decoration: none;
+
+}
+
+ /* Hover effect on topnav links */
+
+ topnav a:hover {
+
+ background-color: pink;
+
+ color: black;
+
+}
+
+/* Layout columns */
+
+ /* Left column */
+
+ leftcolumn {
+
+ float: right;
+
+ width: 75%;
+
+}
+
+/* Right column */
+ rightcolumn {
+
+ float: right;
+
+ width: 25%;
+
+ background-color: pink;
+
+ padding-left: 20px;
+
+}
+
+ /* Placeholder image */
+
+ fakeimg {
+
+ background-color: pink;
+
+ width: 100%;
+
+ padding: 20px;
+
+}
+
+ /* Content cards */
+
+ card {
+
+ background-color: pink;
+
+ padding: 20px;
+
+ margin-top: 20px;
+
+}
+
+ /* Clear floats  */
+
+ row::after {
+
+ content:"";
+
+ display: table;
+
+ clear: both;
+
+}
+
+ /* Footer */
+footer {
+
+padding: 20px;
+
+text-align: center;
+
+background: pink;
+
+margin-top: 20px
+}
